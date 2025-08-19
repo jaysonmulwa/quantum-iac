@@ -1,0 +1,14 @@
+version: 0.1
+circuit_name: simple_circuit
+engine: qiskit
+qubits: 3
+
+transform:
+  - name: hadamard
+    targets: [0]
+  - name: phase
+    targets: ["np.pi/2", 0]
+  - name: cnot
+    targets: [0, 1]
+  - name: cnot
+    targets: [0, 2]
