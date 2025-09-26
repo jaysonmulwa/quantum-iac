@@ -1,4 +1,4 @@
-# Quantum-IAC
+# Quantum Infrastructure as Code
 Quantum Circuits as Infra
 
 We try out a little experiment where Quantum Circuits can be declared imperatively, and the sequence of operations on the circuit declared.
